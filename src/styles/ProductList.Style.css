@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    background-color: rgb(233 229 229);
+
+    flex-direction: row;
+    gap: 20px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+.containerItemImg  {
+    height: 230px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+
+
+.containerItems  {
+    height: 30px;
+    width: 200px;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+    
+}
